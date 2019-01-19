@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[alias]
+	che = checkout
+	bra = branch
+	sta = status
+	log5 = log -n5 --oneline
+	log10 = log -n10 --oneline
+	cb="git rev-parse --abbrev-ref HEAD"

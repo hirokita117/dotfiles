@@ -1,0 +1,56 @@
+{
+    //$HOME/Library/Application Support/Code/User/
+    //上記のディレクトリにこのファイルを移動させる
+
+    //新しいファイルを別タブで開くようにする
+    "workbench.editor.enablePreview": false,
+
+    // Port number to use for connection.
+    "remote.port": 52698,
+
+    // Launch the server on start up.
+    "remote.onstartup": true,
+    "remote.host": "127.0.0.1",
+    "remote.dontShowPortAlreadyInUseError": false,
+
+    /* システムのclipboardにコピー
+    "vim.useSystemClipboard":true,
+
+    // 検索に:を入れる
+    "vim.cmdLineInitialColon": true,
+
+    "vim.hlsearch": true,
+
+    // 言わずもがなeasymotion
+    "vim.easymotion": true,
+
+    // カーソル上にあるワードを"*"で検索
+    "vim.visualstar": true,
+
+    // 諸々のctrlキーを使った操作が有効になる
+    "vim.useCtrlKeys": true,*/
+
+    // 空白文字列の表示
+    "editor.renderWhitespace": "all",
+    // ウィンドウサイズで折り返し
+    "editor.wordWrap": "on",
+    // 文字コードの自動認識
+    "files.autoGuessEncoding": true,
+
+    //indentRainbowの色彩設定
+    "indentRainbow.colors": [
+        "rgba(230,230,10,0.1)",
+        "rgba(190,250,180,0.1)",
+        "rgba(250,120,150,0.1)",
+        "rgba(70,180,250,0.1)",
+    ],
+    "workbench.colorTheme": "Default Light+",
+
+    //インデントの自動判別をおこなう
+    "editor.detectIndentation": true,
+
+    //インデントをスペースにしない
+	"editor.insertSpaces": false,
+	"workbench.startupEditor": "newUntitledFile",
+
+}

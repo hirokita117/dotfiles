@@ -1,0 +1,10 @@
+#! /bin/bash
+
+branchName=$(git rev-parse --abbrev-ref HEAD)
+ticketName=$(echo $branchName | cut -d "/" -f 2)
+firstLine=$(head -n1 $1)
+
+if [ -z "$firstLine" ] ;then
+	sed -i "1s/^/fix,add,update,remove Overview\n\nrefs issue, Message/" $1
+fi
+
