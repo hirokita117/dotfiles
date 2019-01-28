@@ -1,5 +1,9 @@
 #! /bin/bash
 
+#Mac環境ではgnu-sedをインストールしてからエイリアスを設定する必要がある
+#shopt -s expand_aliases
+#source ~/.bashrc
+
 branchName=$(git rev-parse --abbrev-ref HEAD)
 ticketName=$(echo $branchName | cut -d "/" -f 2)
 firstLine=$(head -n1 $1)
