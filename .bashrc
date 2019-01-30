@@ -4,6 +4,7 @@ PS1='\h [\u] \w\n\$:'
 alias ll='ls -lFG'
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-export GREP_OPTIONS='--color=auto'
+alias grep='grep --color=auto'
 
 alias sed='gsed'
+alias hig='history | grep --color=auto'
