@@ -70,5 +70,5 @@ function numberOfInheritedClass ()
 	fi
 }
 
-numberOfInheritedClass | awk '{print length();}'
+numberOfInheritedClass
 
