@@ -4,7 +4,7 @@
 	che = checkout
 	bra = branch
 	sta = status
-	log = log --graph
+	glog = log --graph
 	log5 = log -n5 --oneline --graph
 	log10 = log -n10 --oneline --graph
 	cb="git rev-parse --abbrev-ref HEAD"
