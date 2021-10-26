@@ -1,6 +1,5 @@
 {
-    //$HOME/Library/Application Support/Code/User/
-    //上記のディレクトリにこのファイルを移動させる
+    "terminal.integrated.rendererType": "dom",
 
     //新しいファイルを別タブで開くようにする
     "workbench.editor.enablePreview": false,
@@ -36,21 +35,47 @@
     "editor.wordWrap": "on",
     // 文字コードの自動認識
     "files.autoGuessEncoding": true,
+    // 改行コードを自動的に挿入
+    "files.insertFinalNewline": true,
 
     //indentRainbowの色彩設定
     "indentRainbow.colors": [
-        "rgba(230,230,10,0.1)",
-        "rgba(190,250,180,0.1)",
-        "rgba(250,120,150,0.1)",
-        "rgba(70,180,250,0.1)",
+        "rgba(230,230,10,0.2)",
+        "rgba(190,250,180,0.2)",
+        "rgba(250,120,150,0.2)",
+        "rgba(70,180,250,0.2)",
     ],
-    "workbench.colorTheme": "Default Light+",
 
     //インデントの自動判別をおこなう
     "editor.detectIndentation": true,
 
     //インデントをスペースにしない
-	"editor.insertSpaces": false,
-	"workbench.startupEditor": "newUntitledFile",
+	//"editor.insertSpaces": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
 
+    "files.useExperimentalFileWatcher": true,
+    "files.exclude": {
+        "/.git": true,
+        "/.DS_Store": true,
+        "/node_modules": true,
+        "/node_modules/": true
+    },
+    "search.exclude": {
+        "/node_modules": true
+    },
+    "files.watcherExclude": {
+        "/node_modules/": true
+    },
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",  // カンマ区切りでかっこの種類を記述していく
+        "[]",
+        "{}",
+        [      // 配列の要素として描画に使用する色を列挙する
+            "Green",
+            "Red",
+            "Orange"
+        ],
+        "Gold"  // 対応が見つからないかっこの描画に使用する色を指定する
+    ]
 }
