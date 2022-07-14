@@ -3,6 +3,7 @@
 [alias]
 	sw = switch
 	res = restore
+	ressta = restore --staged
 	bra = branch
 	sta = status
 	glog = log --graph
