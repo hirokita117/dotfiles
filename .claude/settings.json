@@ -6,7 +6,7 @@
           "hooks": [
             {
               "type": "command",
-              "command": "afplay /System/Library/Sounds/Glass.aiff"
+              "command": "afplay -v 1.5 /System/Library/Sounds/Hero.aiff"
             }
           ]
         }
@@ -17,7 +17,7 @@
           "hooks": [
             {
               "type": "command",
-              "command": "afplay /System/Library/Sounds/Glass.aiff"
+              "command": "afplay -v 1.5 /System/Library/Sounds/Glass.aiff"
             }
           ]
         }
