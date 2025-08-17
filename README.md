@@ -1,4 +1,4 @@
-# ConfigurationFiles
+# dotfiles
 ## vim
 ```sh
 # molokaiの入れ方
