@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	quotepath = false
 [alias]
 	sw = switch
 	res = restore
@@ -11,6 +12,7 @@
 	log10 = log -n10 --oneline --graph
 	cb="git rev-parse --abbrev-ref HEAD"
 	pushup = push --set-upstream origin HEAD
+	diffc = diff --cached
 [color]
 	ui = true
 [color "status"]
